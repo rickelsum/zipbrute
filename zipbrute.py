@@ -27,4 +27,4 @@ with open(passfile, "r") as f:
         except RuntimeError:
                 pass
     if foundpass == "":
-        print("\nPassword not found. Try a bigg pasword list.")
+        print("\nPassword not found. Try a bigger pasword list.")
